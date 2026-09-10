@@ -1,14 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #0b0e14;
-  --color-panel: #111620;
-  --color-panel2: #151c28;
-  --color-hairline: #232b38;
-  --color-paper: #ece9e2;
-  --color-muted: #8b93a6;
-  --color-teal: #4fe3c2;
-  --color-amber: #f2a65a;
+  --color-ink: #f6f8fc;
+  --color-panel: #ffffff;
+  --color-panel2: #eef2fa;
+  --color-hairline: #e0e6f2;
+  --color-paper: #1e2a44;
+  --color-muted: #64708a;
+  --color-blue: #3b5fe0;
+  --color-lavender: #9c8cf5;
+  --color-orange: #e08a3f;
 
   --font-serif: "Fraunces", serif;
   --font-sans: "Inter", sans-serif;
@@ -28,10 +29,6 @@ body {
 
 img {
   max-width: 100%;
-}
-
-.duotone {
-  filter: grayscale(1) contrast(1.05) brightness(0.95) sepia(0.25) hue-rotate(120deg) saturate(2.1);
 }
 
 @keyframes pulse-dot {
@@ -63,8 +60,8 @@ img {
 }
 
 ::selection {
-  background: #4fe3c2;
-  color: #0b0e14;
+  background: #3b5fe0;
+  color: #f6f8fc;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -76,6 +73,6 @@ img {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid #4fe3c2;
+  outline: 2px solid #3b5fe0;
   outline-offset: 3px;
 }

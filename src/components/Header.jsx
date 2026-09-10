@@ -19,7 +19,7 @@ export default function Header() {
           ))}
           <a
             href={`mailto:${PROFILE.email}`}
-            className="text-sm px-4 py-2 rounded-full bg-teal text-ink font-medium hover:bg-paper transition-colors"
+            className="text-sm px-4 py-2 rounded-full bg-blue text-ink font-medium hover:bg-paper transition-colors"
           >
             Say hello
           </a>
@@ -39,7 +39,7 @@ export default function Header() {
               {n.label}
             </a>
           ))}
-          <a href={`mailto:${PROFILE.email}`} className="text-sm text-teal">
+          <a href={`mailto:${PROFILE.email}`} className="text-sm text-blue">
             {PROFILE.email}
           </a>
         </div>

@@ -1,6 +1,7 @@
 export const NAV = [
-  { id: "work", label: "Work" },
+  { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
+  { id: "work", label: "Projects" },
   { id: "stack", label: "Stack" },
   { id: "contact", label: "Contact" },
 ];
@@ -21,11 +22,19 @@ export const PROFILE = {
     "I build the parts of a product that have to happen live — multiplayer game state, real-time bidding, streaming dashboards — and the Flutter apps that carry them to 150,000+ people on their phones.",
 };
 
+export const ABOUT = {
+  bio: [
+    "I'm a full-stack and mobile engineer who has spent 7+ years building the parts of a product that have to feel instant — real-time multiplayer state, live bidding, streaming dashboards — plus the Flutter apps that carry them to over 150,000 people.",
+    "Most recently I've been at YouMeWho building Partymods end-to-end, and before that spent four years as the founding mobile engineer at Explo GmbH, taking it from zero to 150,000+ registered users.",
+    "I care about shipping fast without cutting corners — clean auth, sane state management, and CI/CD that stays out of the way.",
+  ],
+};
+
 export const STATS = [
   { n: "150K+", l: "registered users served across shipped mobile apps" },
   { n: "7+", l: "years building production frontend, mobile & backend systems" },
   { n: "50%", l: "cut in deployment time after rebuilding CI/CD with Fastlane" },
-  { n: "3", l: "countries worked across, fully remote — India, Germany, USA" },
+  { n: "5", l: "countries worked across, fully remote — India, Germany, USA, Netherlands, UAE" },
 ];
 
 export const EXPERIENCE = [
@@ -78,7 +87,7 @@ export const EXPERIENCE = [
     period: "Sep 2019 — Jul 2020",
     role: "Angular Developer",
     org: "standBystand",
-    place: "Remote",
+    place: "Remote — Netherlands",
     summary:
       "Worked on the Stand Building freelancing portal, shipping new features and reworking existing modules.",
     points: [
@@ -106,11 +115,10 @@ export const PROJECTS = [
     name: "Artslice",
     tagline: "Fractional art-investment platform",
     desc:
-      "Buy and sell shares of artwork through IPOs and a live secondary-market exchange, layered with a social feed — stories, posts, reels, real-time chat and notifications.",
+      "Buy and sell shares of artwork through IPOs and a live secondary-market exchange, layered with a social feed — stories, posts, reels, real-time chat and notifications, for a UAE-based client.",
     owned:
       "Owned the core mobile modules end-to-end: order book, portfolio, wallet, trade history and messaging — plus backend APIs for IPO stories, feed and comments, and admin order-management features.",
     stack: ["React Native", "Expo", "Redux Toolkit", "NestJS", "Firestore", "Stripe", "Typesense"],
-    accent: "teal",
   },
   {
     name: "FixAir",
@@ -120,7 +128,6 @@ export const PROJECTS = [
     owned:
       "Built the frontend and the ElevenLabs conversational-AI integration, giving each session an isolated knowledge base for context-aware dictation. Built the photo/nameplate scan flow that pulls model, serial number and refrigerant type — cutting report time from ~30 minutes to about 1. Used Claude alongside ElevenLabs for structured, compliant report generation.",
     stack: ["Next.js", "Node.js", "MongoDB", "AWS", "ElevenLabs", "Claude"],
-    accent: "amber",
   },
 ];
 

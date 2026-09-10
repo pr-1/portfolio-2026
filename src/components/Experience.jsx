@@ -10,7 +10,7 @@ export default function Experience() {
         <div className="space-y-12 sm:space-y-14">
           {EXPERIENCE.map((e) => (
             <div key={e.org} className="relative">
-              <span className="absolute -left-6 sm:-left-8 md:-left-10 top-1.5 w-[15px] h-[15px] rounded-full bg-ink border-2 border-teal"></span>
+              <span className="absolute -left-6 sm:-left-8 md:-left-10 top-1.5 w-[15px] h-[15px] rounded-full bg-ink border-2 border-blue"></span>
               <p className="font-mono text-xs text-muted mb-2">{e.period}</p>
               <h3 className="font-serif text-lg sm:text-xl md:text-2xl text-paper break-words">
                 {e.role} <span className="text-muted">· {e.org}</span>
@@ -20,14 +20,14 @@ export default function Experience() {
               <ul className="mt-4 space-y-2 max-w-2xl">
                 {e.points.map((pt) => (
                   <li key={pt} className="text-muted text-[15px] leading-relaxed flex gap-3">
-                    <span className="text-teal mt-2 shrink-0">—</span>
+                    <span className="text-blue mt-2 shrink-0">—</span>
                     <span>{pt}</span>
                   </li>
                 ))}
               </ul>
               <div className="mt-5 flex flex-wrap gap-2">
                 {e.tags.map((t) => (
-                  <Chip key={t} tone="muted">
+                  <Chip key={t} tone="blue">
                     {t}
                   </Chip>
                 ))}

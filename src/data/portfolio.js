@@ -19,14 +19,14 @@ export const PROFILE = {
   linkedinLabel: "linkedin.com/in/pr-1",
   headline: "Full-stack & mobile engineer, obsessed with things that stay in sync.",
   subhead:
-    "I build the parts of a product that have to happen live — multiplayer game state, real-time bidding, streaming dashboards — and the Flutter apps that carry them to 150,000+ people on their phones.",
+    "I build the parts of a product that have to happen live: multiplayer game state, real-time bidding, streaming dashboards, and the Flutter apps that carry them to 150,000+ people on their phones.",
 };
 
 export const ABOUT = {
   bio: [
-    "I'm a full-stack and mobile engineer who has spent 6+ years building the parts of a product that have to feel instant — real-time multiplayer state, live bidding, streaming dashboards — plus the Flutter apps that carry them to over 150,000 people.",
+    "I'm a full-stack and mobile engineer who has spent 6+ years building the parts of a product that have to feel instant: real-time multiplayer state, live bidding, streaming dashboards, plus the Flutter apps that carry them to over 150,000 people.",
     "Most recently I've been at YouMeWho building Partymods end-to-end, and before that spent four years as the founding mobile engineer at Explo GmbH, taking it from zero to 150,000+ registered users.",
-    "I care about shipping fast without cutting corners — clean auth, sane state management, and CI/CD that stays out of the way.",
+    "I care about shipping fast without cutting corners: clean auth, sane state management, and CI/CD that stays out of the way.",
   ],
 };
 
@@ -34,15 +34,15 @@ export const STATS = [
   { n: "150K+", l: "registered users served across shipped mobile apps" },
   { n: "6+", l: "years building production frontend, mobile & backend systems" },
   { n: "50%", l: "cut in deployment time after rebuilding CI/CD with Fastlane" },
-  { n: "5", l: "countries worked across, fully remote — India, Germany, USA, Netherlands, UAE" },
+  { n: "5", l: "countries worked across, fully remote: India, Germany, USA, Netherlands, UAE" },
 ];
 
 export const EXPERIENCE = [
   {
-    period: "Jun 2025 — Present",
+    period: "Jun 2025 to Present",
     role: "Full Stack Developer",
     org: "YouMeWho Inc.",
-    place: "Remote — USA",
+    place: "Remote, USA",
     summary:
       "Building Partymods, a live lucky-draw and marketplace platform meant to carry YouMeWho's existing userbase onto a new product.",
     points: [
@@ -54,10 +54,10 @@ export const EXPERIENCE = [
     tags: ["Next.js", "TypeScript", "Socket.IO", "MongoDB", "NextAuth"],
   },
   {
-    period: "Feb 2021 — May 2025",
+    period: "Feb 2021 to May 2025",
     role: "Founding Mobile App Developer / Full Stack Developer",
     org: "Explo GmbH",
-    place: "Remote — Kiel, Germany · acquired by HUP GmbH",
+    place: "Remote, Kiel, Germany · acquired by HUP GmbH",
     summary:
       "First mobile hire. Built the cross-platform app from the ground up and grew it to over 150,000 registered users.",
     points: [
@@ -70,24 +70,24 @@ export const EXPERIENCE = [
     tags: ["Flutter", "GraphQL", "MobX", "Django", "Fastlane"],
   },
   {
-    period: "Jul 2020 — Feb 2021",
+    period: "Jul 2020 to Feb 2021",
     role: "Frontend Developer",
     org: "Reas Group",
-    place: "Remote — Milton Keynes, London",
+    place: "Remote, Milton Keynes, London",
     summary:
       "Built B2B mobile solutions and the admin tooling that powered full white-label customization for client brands.",
     points: [
       "Built an admin panel in React, TypeScript and Chakra UI, lifting admin task efficiency by 60%.",
-      "Made the mobile app fully white-labelable — dynamic themes and palettes configured from the admin panel — cutting customization requests by 40%.",
+      "Made the mobile app fully white-labelable, with dynamic themes and palettes configured from the admin panel, cutting customization requests by 40%.",
       "Wrote Jest unit tests across the admin panel and mobile app to improve reliability.",
     ],
     tags: ["Flutter", "MobX", "Firebase", "Chakra UI"],
   },
   {
-    period: "Sep 2019 — Jul 2020",
+    period: "Sep 2019 to Jul 2020",
     role: "Angular Developer",
     org: "standBystand",
-    place: "Remote — Netherlands",
+    place: "Remote, Netherlands",
     summary:
       "Worked on the Stand Building freelancing portal, shipping new features and reworking existing modules.",
     points: [
@@ -97,7 +97,7 @@ export const EXPERIENCE = [
     tags: ["Angular"],
   },
   {
-    period: "Feb 2018 — May 2019",
+    period: "Feb 2018 to May 2019",
     role: "Software Developer",
     org: "DevsLane",
     place: "Ghaziabad Area, India · Internship",
@@ -115,9 +115,9 @@ export const PROJECTS = [
     name: "Artslice",
     tagline: "Fractional art-investment platform",
     desc:
-      "Buy and sell shares of artwork through IPOs and a live secondary-market exchange, layered with a social feed — stories, posts, reels, real-time chat and notifications, for a UAE-based client.",
+      "Buy and sell shares of artwork through IPOs and a live secondary-market exchange, layered with a social feed: stories, posts, reels, real-time chat and notifications, for a UAE-based client.",
     owned:
-      "Owned the core mobile modules end-to-end: order book, portfolio, wallet, trade history and messaging — plus backend APIs for IPO stories, feed and comments, and admin order-management features.",
+      "Owned the core mobile modules end-to-end: order book, portfolio, wallet, trade history and messaging, plus backend APIs for IPO stories, feed and comments, and admin order-management features.",
     stack: ["React Native", "Expo", "Redux Toolkit", "NestJS", "Firestore", "Stripe", "Typesense"],
   },
   {
@@ -126,7 +126,7 @@ export const PROJECTS = [
     desc:
       "Lets HVAC technicians dictate on-site diagnostics in natural language and get a branded, CERFA-compliant report back in under a minute.",
     owned:
-      "Built the frontend and the ElevenLabs conversational-AI integration, giving each session an isolated knowledge base for context-aware dictation. Built the photo/nameplate scan flow that pulls model, serial number and refrigerant type — cutting report time from ~30 minutes to about 1. Used Claude alongside ElevenLabs for structured, compliant report generation.",
+      "Built the frontend and the ElevenLabs conversational-AI integration, giving each session an isolated knowledge base for context-aware dictation. Built the photo/nameplate scan flow that pulls model, serial number and refrigerant type, cutting report time from ~30 minutes to about 1. Used Claude alongside ElevenLabs for structured, compliant report generation.",
     stack: ["Next.js", "Node.js", "MongoDB", "AWS", "ElevenLabs", "Claude"],
   },
 ];
@@ -143,5 +143,5 @@ export const STACK = [
 export const EDUCATION = {
   degree: "Bachelor of Technology, Computer Science",
   school: "Ajay Kumar Garg Engineering College, Ghaziabad",
-  detail: "8.2 CGPA · Aug 2016 – Sep 2020",
+  detail: "8.2 CGPA · Aug 2016 to Sep 2020",
 };

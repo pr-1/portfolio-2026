@@ -19,12 +19,12 @@ export const PROFILE = {
   linkedinLabel: "linkedin.com/in/pr-1",
   headline: "Full-stack & mobile engineer, obsessed with things that stay in sync.",
   subhead:
-    "I build the parts of a product that have to happen live: multiplayer game state, real-time bidding, streaming dashboards, and the Flutter apps that carry them to 150,000+ people on their phones.",
+    "I build products, from multiplayer game state and live bidding to streaming dashboards and the Flutter apps that carry them to 150,000+ people on their phones.",
 };
 
 export const ABOUT = {
   bio: [
-    "I'm a full-stack and mobile engineer who has spent 6+ years building the parts of a product that have to feel instant: real-time multiplayer state, live bidding, streaming dashboards, plus the Flutter apps that carry them to over 150,000 people.",
+    "I'm a full-stack and mobile engineer with 6+ years building products, from multiplayer game state and live bidding to streaming dashboards and the Flutter apps that carry them to over 150,000 people.",
     "Most recently I've been at YouMeWho building Partymods end-to-end, and before that spent four years as the founding mobile engineer at Explo GmbH, taking it from zero to 150,000+ registered users.",
     "I care about shipping fast without cutting corners: clean auth, sane state management, and CI/CD that stays out of the way.",
   ],

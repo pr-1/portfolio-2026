@@ -24,7 +24,7 @@ export const PROFILE = {
 
 export const ABOUT = {
   bio: [
-    "I'm a full-stack and mobile engineer who has spent 7+ years building the parts of a product that have to feel instant — real-time multiplayer state, live bidding, streaming dashboards — plus the Flutter apps that carry them to over 150,000 people.",
+    "I'm a full-stack and mobile engineer who has spent 6+ years building the parts of a product that have to feel instant — real-time multiplayer state, live bidding, streaming dashboards — plus the Flutter apps that carry them to over 150,000 people.",
     "Most recently I've been at YouMeWho building Partymods end-to-end, and before that spent four years as the founding mobile engineer at Explo GmbH, taking it from zero to 150,000+ registered users.",
     "I care about shipping fast without cutting corners — clean auth, sane state management, and CI/CD that stays out of the way.",
   ],
@@ -32,7 +32,7 @@ export const ABOUT = {
 
 export const STATS = [
   { n: "150K+", l: "registered users served across shipped mobile apps" },
-  { n: "7+", l: "years building production frontend, mobile & backend systems" },
+  { n: "6+", l: "years building production frontend, mobile & backend systems" },
   { n: "50%", l: "cut in deployment time after rebuilding CI/CD with Fastlane" },
   { n: "5", l: "countries worked across, fully remote — India, Germany, USA, Netherlands, UAE" },
 ];

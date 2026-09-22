@@ -4,10 +4,10 @@ export default function SignalLine() {
       <path
         d="M2,40 C 120,10 180,70 260,40 S 420,10 500,40 S 640,70 700,38"
         fill="none"
-        stroke="#E0E6F2"
+        stroke="var(--color-hairline)"
         strokeWidth="1.5"
       />
-      <circle r="4" fill="#3B5FE0" className="signal-node" />
+      <circle r="4" fill="var(--color-blue)" className="signal-node" />
     </svg>
   );
 }

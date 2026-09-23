@@ -25,7 +25,7 @@ export const PROFILE = {
 export const ABOUT = {
   bio: [
     "I'm a full-stack and mobile engineer with 6+ years building products, from multiplayer game state and live bidding to streaming dashboards and the Flutter apps that carry them to over 150,000 people.",
-    "Most recently I've been at YouMeWho building Partymods end-to-end, and before that spent four years as the founding mobile engineer at Explo GmbH, taking it from zero to 150,000+ registered users.",
+    "Most recently I've been at YouMeWho building Partymods end-to-end, and before that spent four years as Founding Engineer at Explo GmbH, taking it from zero to 150,000+ registered users.",
     "I care about shipping fast without cutting corners: clean auth, sane state management, and CI/CD that stays out of the way.",
   ],
 };
@@ -42,6 +42,7 @@ export const EXPERIENCE = [
     period: "Jun 2025 to Present",
     role: "Full Stack Developer",
     org: "YouMeWho Inc.",
+    url: "https://partymods.com",
     place: "Remote, USA",
     summary:
       "Building Partymods, a live lucky-draw and marketplace platform meant to carry YouMeWho's existing userbase onto a new product.",
@@ -55,8 +56,9 @@ export const EXPERIENCE = [
   },
   {
     period: "Feb 2021 to May 2025",
-    role: "Founding Mobile App Developer / Full Stack Developer",
+    role: "Founding Engineer",
     org: "Explo GmbH",
+    url: "https://explo-gmbh.de",
     place: "Remote, Kiel, Germany · acquired by HUP GmbH",
     summary:
       "First mobile hire. Built the cross-platform app from the ground up and grew it to over 150,000 registered users.",

@@ -13,7 +13,16 @@ export default function Experience() {
               <span className="absolute -left-6 sm:-left-8 md:-left-10 top-1.5 w-[15px] h-[15px] rounded-full bg-ink border-2 border-blue"></span>
               <p className="font-mono text-xs text-muted mb-2">{e.period}</p>
               <h3 className="font-serif text-lg sm:text-xl md:text-2xl text-paper break-words">
-                {e.role} <span className="text-muted">· {e.org}</span>
+                {e.role} <span className="text-muted">
+                  ·{" "}
+                  {e.url ? (
+                    <a href={e.url} target="_blank" rel="noreferrer" className="hover:text-blue transition-colors">
+                      {e.org}
+                    </a>
+                  ) : (
+                    e.org
+                  )}
+                </span>
               </h3>
               <p className="text-sm text-muted mt-1">{e.place}</p>
               <p className="mt-4 text-paper/90 leading-relaxed max-w-2xl">{e.summary}</p>

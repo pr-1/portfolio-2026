@@ -6,12 +6,19 @@ function ThemeToggle({ className = "" }) {
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
-    localStorage.setItem("theme", dark ? "dark" : "light");
   }, [dark]);
+
+  const toggle = () => {
+    const next = !dark;
+    setDark(next);
+    try {
+      localStorage.setItem("theme-pref", next ? "dark" : "light");
+    } catch {}
+  };
 
   return (
     <button
-      onClick={() => setDark(!dark)}
+      onClick={toggle}
       aria-label={dark ? "Switch to light theme" : "Switch to dark theme"}
       className={`text-muted hover:text-paper transition-colors ${className}`}
     >

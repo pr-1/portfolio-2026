@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <script>
       (function () {
-        var stored = localStorage.getItem("theme");
-        var dark = stored ? stored === "dark" : true;
+        var stored = null;
+        try { stored = localStorage.getItem("theme-pref"); } catch (e) {}
+        var dark = stored !== "light";
         document.documentElement.classList.toggle("dark", dark);
       })();
     </script>
